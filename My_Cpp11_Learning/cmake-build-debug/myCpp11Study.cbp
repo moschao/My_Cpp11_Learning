@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myCpp11Study"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myCpp11Study">
+				<Option output="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/myCpp11Study" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/internal"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/SFINAE_Test"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/src"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/threadsafe_lookuptable"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 myCpp11Study"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myCpp11Study/fast">
+				<Option output="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/myCpp11Study" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/godchao/Desktop/myCpp11Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/internal"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/SFINAE_Test"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/src"/>
+					<Add directory="/Users/godchao/Desktop/myCpp11Study/tools/threadsafe_lookuptable"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 myCpp11Study/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/access.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives/binary.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives/json.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives/portable_binary.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/archives/xml.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/cereal.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details/helpers.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details/polymorphic_impl.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details/static_object.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details/traits.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/details/util.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/base64.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/document.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/filestream.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/genericstream.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/internal/pow10.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/internal/stack.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/internal/strfunc.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/prettywriter.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/rapidjson.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/reader.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/stringbuffer.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidjson/writer.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml/rapidxml.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml/rapidxml_iterators.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml/rapidxml_print.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/external/rapidxml/rapidxml_utils.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/array.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/base_class.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/bitset.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/boost_variant.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/chrono.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/common.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/complex.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/deque.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/forward_list.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/list.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/map.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/memory.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/polymorphic.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/queue.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/set.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/stack.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/string.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/tuple.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/unordered_map.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/unordered_set.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/utility.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/3rdparty/cereal/types/vector.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cereal_test/cereal_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/constexpr_nullptr/constexpr_nullptr.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/decltype/decltype.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/delete_default/delete_default.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/enum_union/enum_union.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/initialization_list/initialization_list.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/lambda_test/lambda_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/object_construction/object_construction.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/overrides_final/overrides_final.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/regex_test/regex_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/right_value_ref/right_value_ref.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/threads/threads.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/tuple_test/tuple_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/unordered_set_map/unordered_set_map.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/using_and_so_on/using_and_so_on.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/cpp11features/variadic_templates/variadic_templates.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/std_components/src/std_time.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/stl/src/algorithm_create_update_delete.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/stl/src/algorithm_find_search_compare.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/stl/src/algorithm_heap_set_permutation.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/stl/src/algorithm_sort.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/stl/src/container_sequence.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tests/AOP/AOP.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tests/ComposeFunctor/ComposeFunctorTest.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tests/Observer/Observer.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tests/PrintArgs/PrintArgs.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tests/mapSort/mapSort.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/JobQueue/test_job_queue.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/SFINAE_Test/CheckClassMethod.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/SFINAE_Test/SFINAE_Test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/ScopeGuard/ScopeGuard_Test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/check_is_class/test_check_is_class.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/range/range_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/safe_printf/test_safe_printf.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/src/JobQueue.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/src/ScopeGuard.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/src/check_is_class.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/src/range.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/src/safe_printf.hpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/threadsafe_lookuptable/threadsafe_lookuptable.h">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/tools/threadsafe_lookuptable/threadsafe_lookuptable_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/utility/src/daemon_test.cpp">
+			<Option target="myCpp11Study"/>
+		</Unit>
+		<Unit filename="/Users/godchao/Desktop/myCpp11Study/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/godchao/Desktop/myCpp11Study/cmake-build-debug/CMakeFiles/myCpp11Study.dir

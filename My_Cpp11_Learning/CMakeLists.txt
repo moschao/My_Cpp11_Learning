@@ -1,0 +1,110 @@
+cmake_minimum_required(VERSION 3.20)
+project(myCpp11Study)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(3rdparty)
+include_directories(3rdparty/cereal)
+include_directories(3rdparty/cereal/archives)
+include_directories(3rdparty/cereal/details)
+include_directories(3rdparty/cereal/external)
+include_directories(3rdparty/cereal/external/rapidjson)
+include_directories(3rdparty/cereal/external/rapidjson/internal)
+include_directories(3rdparty/cereal/external/rapidxml)
+include_directories(3rdparty/cereal/types)
+include_directories(tools/SFINAE_Test)
+include_directories(tools/src)
+include_directories(tools/threadsafe_lookuptable)
+
+add_executable(myCpp11Study
+        3rdparty/cereal/archives/binary.hpp
+        3rdparty/cereal/archives/json.hpp
+        3rdparty/cereal/archives/portable_binary.hpp
+        3rdparty/cereal/archives/xml.hpp
+        3rdparty/cereal/details/helpers.hpp
+        3rdparty/cereal/details/polymorphic_impl.hpp
+        3rdparty/cereal/details/static_object.hpp
+        3rdparty/cereal/details/traits.hpp
+        3rdparty/cereal/details/util.hpp
+        3rdparty/cereal/external/rapidjson/internal/pow10.h
+        3rdparty/cereal/external/rapidjson/internal/stack.h
+        3rdparty/cereal/external/rapidjson/internal/strfunc.h
+        3rdparty/cereal/external/rapidjson/document.h
+        3rdparty/cereal/external/rapidjson/filestream.h
+        3rdparty/cereal/external/rapidjson/genericstream.h
+        3rdparty/cereal/external/rapidjson/prettywriter.h
+        3rdparty/cereal/external/rapidjson/rapidjson.h
+        3rdparty/cereal/external/rapidjson/reader.h
+        3rdparty/cereal/external/rapidjson/stringbuffer.h
+        3rdparty/cereal/external/rapidjson/writer.h
+        3rdparty/cereal/external/rapidxml/rapidxml.hpp
+        3rdparty/cereal/external/rapidxml/rapidxml_iterators.hpp
+        3rdparty/cereal/external/rapidxml/rapidxml_print.hpp
+        3rdparty/cereal/external/rapidxml/rapidxml_utils.hpp
+        3rdparty/cereal/external/base64.hpp
+        3rdparty/cereal/types/array.hpp
+        3rdparty/cereal/types/base_class.hpp
+        3rdparty/cereal/types/bitset.hpp
+        3rdparty/cereal/types/boost_variant.hpp
+        3rdparty/cereal/types/chrono.hpp
+        3rdparty/cereal/types/common.hpp
+        3rdparty/cereal/types/complex.hpp
+        3rdparty/cereal/types/deque.hpp
+        3rdparty/cereal/types/forward_list.hpp
+        3rdparty/cereal/types/list.hpp
+        3rdparty/cereal/types/map.hpp
+        3rdparty/cereal/types/memory.hpp
+        3rdparty/cereal/types/polymorphic.hpp
+        3rdparty/cereal/types/queue.hpp
+        3rdparty/cereal/types/set.hpp
+        3rdparty/cereal/types/stack.hpp
+        3rdparty/cereal/types/string.hpp
+        3rdparty/cereal/types/tuple.hpp
+        3rdparty/cereal/types/unordered_map.hpp
+        3rdparty/cereal/types/unordered_set.hpp
+        3rdparty/cereal/types/utility.hpp
+        3rdparty/cereal/types/vector.hpp
+        3rdparty/cereal/access.hpp
+        3rdparty/cereal/cereal.hpp
+        cereal_test/cereal_test.cpp
+        cpp11features/constexpr_nullptr/constexpr_nullptr.cpp
+        cpp11features/decltype/decltype.cpp
+        cpp11features/delete_default/delete_default.cpp
+        cpp11features/enum_union/enum_union.cpp
+        cpp11features/initialization_list/initialization_list.cpp
+        cpp11features/lambda_test/lambda_test.cpp
+        cpp11features/object_construction/object_construction.cpp
+        cpp11features/overrides_final/overrides_final.cpp
+        cpp11features/regex_test/regex_test.cpp
+        cpp11features/right_value_ref/right_value_ref.cpp
+        cpp11features/threads/threads.cpp
+        cpp11features/tuple_test/tuple_test.cpp
+        cpp11features/unordered_set_map/unordered_set_map.cpp
+        cpp11features/using_and_so_on/using_and_so_on.cpp
+        cpp11features/variadic_templates/variadic_templates.cpp
+        std_components/src/std_time.cpp
+        stl/src/algorithm_create_update_delete.cpp
+        stl/src/algorithm_find_search_compare.cpp
+        stl/src/algorithm_heap_set_permutation.cpp
+        stl/src/algorithm_sort.cpp
+        stl/src/container_sequence.cpp
+        tests/AOP/AOP.cpp
+        tests/ComposeFunctor/ComposeFunctorTest.cpp
+        tests/mapSort/mapSort.cpp
+        tests/Observer/Observer.cpp
+        tests/PrintArgs/PrintArgs.cpp
+        tools/check_is_class/test_check_is_class.cpp
+        tools/JobQueue/test_job_queue.cpp
+        tools/range/range_test.cpp
+        tools/safe_printf/test_safe_printf.cpp
+        tools/ScopeGuard/ScopeGuard_Test.cpp
+        tools/SFINAE_Test/CheckClassMethod.hpp
+        tools/SFINAE_Test/SFINAE_Test.cpp
+        tools/src/check_is_class.hpp
+        tools/src/JobQueue.h
+        tools/src/range.hpp
+        tools/src/safe_printf.hpp
+        tools/src/ScopeGuard.h
+        tools/threadsafe_lookuptable/threadsafe_lookuptable.h
+        tools/threadsafe_lookuptable/threadsafe_lookuptable_test.cpp
+        utility/src/daemon_test.cpp)
